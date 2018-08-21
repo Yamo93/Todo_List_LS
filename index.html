@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To-Do App</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <h1 class="todo__title">My Tasks</h1>
+
+    <div class="todo">
+        <ul class="todo__list">
+            <li class="todo__list-item" id="0">
+                <div class="todo__list-item--btn"> &#10003;</div>
+                Wash Clothes
+                <div class="todo__list-item--removebtn">&times;</div>
+            </li>
+            <li class="todo__list-item" id="1">
+                <div class="todo__list-item--btn ticked">&#10003;</div>
+                Wash Clothes
+                <div class="todo__list-item--removebtn">&times;</div>
+            </li>
+            <li class="todo__list-item" id="2">
+                <div class="todo__list-item--btn">&#10003;</div>
+                Wash Clothes
+                <div class="todo__list-item--removebtn">&times;</div>
+            </li>
+
+        </ul>
+        <div class="todo__add">
+            <input type="text" id="todo__value">
+            <button class="todo__add-btn"><span>+</span>Add a new task</button>
+        </div>
+        
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
